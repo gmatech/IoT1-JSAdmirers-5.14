@@ -1,0 +1,15 @@
+{
+  "name": "DeviceService",
+  "version": "0.0.1",
+  "description": "A device service for the PADNUG IoT presentation.",
+  "main": "service.js",
+  "author": {
+    "name": "Gerald Aden",
+    "email": "gerald@gmatech.com"
+  },
+  "dependencies": {
+    "getmac": "~1.0.6",
+    "nconf": "~0.6.9",
+    "mqtt": "~0.3.8"
+  }
+}

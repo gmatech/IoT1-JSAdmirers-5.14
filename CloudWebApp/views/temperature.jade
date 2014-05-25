@@ -1,0 +1,14 @@
+﻿extends layout
+
+block content
+  h1= "Temperatures"
+  table.table.table-bordered.table-condensed
+    thead
+      tr
+        th Date/Time
+        th Temperature (C)
+    tbody
+      each temperature in temperatures
+        tr
+          td #{temperature.timestamp}
+          td #{temperature.data[0].temperature}

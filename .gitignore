@@ -1,0 +1,7 @@
+#Node related files/directories
+node_modules
+
+# Visual Studio files
+*.suo
+*.user
+obj

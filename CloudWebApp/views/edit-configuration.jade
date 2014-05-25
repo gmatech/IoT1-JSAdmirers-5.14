@@ -1,0 +1,9 @@
+﻿extends layout
+
+block content
+  form(action='/configure', method='post')
+    input(type='hidden', name='_method', value='POST')
+    p Reading interval: 
+      input(type='text', value='', name='interval')
+    p
+      input(type='submit')

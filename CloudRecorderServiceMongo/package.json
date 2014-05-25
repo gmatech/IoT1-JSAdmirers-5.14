@@ -1,0 +1,16 @@
+﻿{
+  "name": "CloudReporterServiceMongo",
+  "version": "0.0.0",
+  "description": "CloudReporterServiceMongo",
+  "main": "app.js",
+  "author": {
+    "name": "Gerald",
+    "email": ""
+  },
+  "devDependencies": {
+    "mqtt": "~0.3.8",
+    "nconf": "~0.6.9",
+    "mongodb": "~1.4.0",
+    "mongoose": "~3.8.8"
+  }
+}

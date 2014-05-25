@@ -1,0 +1,4 @@
+﻿{
+  "mqttHost": "localhost",
+  "mqttPort": "1883"
+}

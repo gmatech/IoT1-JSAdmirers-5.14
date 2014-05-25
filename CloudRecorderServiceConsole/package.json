@@ -1,0 +1,14 @@
+{
+  "name": "CloudTempRecorder",
+  "version": "0.0.1",
+  "description": "Records temperature data at a cloud daas provider.",
+  "main": "app.js",
+  "author": {
+    "name": "Gerald",
+    "email": ""
+  },
+  "devDependencies": {
+    "mqtt": "~0.3.8",
+    "nconf": "~0.6.9"
+  }
+}
